@@ -1,0 +1,9 @@
+@import url("css/header.css");
+@import url(3);
+*{
+    font-family: sans-serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+}

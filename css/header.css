@@ -1,0 +1,34 @@
+.headerNav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 125px;
+}
+.headerLogo{
+    height: 100%;
+}
+.headerNav_login{
+    display: flex;
+    width: 150px;
+    flex-grow: 0;
+    text-decoration: none;
+}
+.headerNav_login img{
+    height: 10%;
+}
+.headerNav_login div{
+    color: black;
+}
+
+
+.siteNav{
+    display: flex;
+    list-style: none;
+    gap: 15px;
+    justify-content: center;
+    padding: 5px;
+    border-top: 1px solid gray;
+    border-bottom: 2px solid rgba(128, 128, 128, 0.62);
+
+    font-size: 0.8rem;
+}

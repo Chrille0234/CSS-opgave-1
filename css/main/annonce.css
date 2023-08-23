@@ -1,0 +1,14 @@
+
+.annonce{
+    display: flex;
+    color: grey;
+    text-decoration: none;
+    justify-content: center;
+}
+.annonce img{
+    aspect-ratio: 4/1;
+}
+.annonce figcaption{
+    writing-mode: vertical-rl;
+    align-self: center;
+}

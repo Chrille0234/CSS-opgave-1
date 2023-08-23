@@ -1,5 +1,7 @@
 @import url("css/header.css");
-@import url(3);
+@import url("css/main/annonce.css");
+@import url("css/main/displayedArticle.css");
+
 *{
     font-family: sans-serif;
 }

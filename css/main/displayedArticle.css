@@ -1,12 +1,12 @@
 .displayedArticle{
-    width: 50%;
+    width: 800px;
     margin: 0 auto;
 }
 .displayedArticle_subscriptionNotice{
     color: gray;
     text-transform: uppercase;
     font-size: 12px;
-    width: 70%;
+    width: 75%;
     margin-left: auto;
 }
 .displayedArticle_subscriptionNotice span{
@@ -14,33 +14,13 @@
     color: red;
     font-weight: bold;
 }
-.displayedArticle h1{
-    font-size: 1.4rem;
-    width: 70%;
+.displayedArticle h1,
+.displayedArticle h2{
+    width: 75%;
     margin-left: auto;
 }
 .displayedArticle h2{
-    font-size: 0.8rem;
-    font-weight: 500;
     color: gray;
-    width: 70%;
-    margin-left: auto;
-}
-.displayedArticle_figure{
-    display: flex;
-    flex-direction: row-reverse;
-}
-.displayedArticle_figure_image{
-    width: 500%;
-}
-.displayedArticle_figure figcaption{
-    font-size: 10px;
-    text-align: right;
-    margin-right: 10px;
-    color: gray
-}
-.displayedArticle_figure figcaption div{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+    font-size: 0.8em;
+    font-weight: 500;
 }

@@ -4,9 +4,12 @@
     color: grey;
     text-decoration: none;
     justify-content: center;
+    width: 810px;
+    margin: 0 auto;
 }
 .annonce img{
     aspect-ratio: 4/1;
+    width: 800px;
 }
 .annonce figcaption{
     writing-mode: vertical-rl;

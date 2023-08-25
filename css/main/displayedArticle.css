@@ -24,3 +24,23 @@
     font-size: 0.8em;
     font-weight: 500;
 }
+.displayedArticle_figure{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+    margin: 0
+}
+.displayedArticle_figure_image{
+    width: 600px;
+}
+.displayedArticle_figure figcaption{
+    font-size: 0.6em;
+    width: 200px;
+    text-align: right;
+    margin-right: 15px;
+}
+.displayedArticle_figure div{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
